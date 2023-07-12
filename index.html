@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a id="brand-name" class="navbar-brand" href="#">Chittari Sai Krishna</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul id="links" class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home" onclick="change_count(this);">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#qualification" onclick="change_count(this);">Qualification</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Languages-Known" onclick="change_count(this);">Languages Known</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#home" onclick="change_count(this);">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+    <!-- Resume Details -->
+
+      <!-- Home Details -->
+      <div id="home" style="width: 100%; height: 610px;">
+        <div class="container" style="border-radius: 10px; height: 100%; padding: 10px; background-color: rgba(23, 78, 21, 0.2);">
+          <div class="container-fluid">
+            <div class="row justify-content-center" style="margin-top: 70px;">
+              <div class="col-sm-6" style="text-align: center;">
+                <img id="profile-photo" src="images/profile-photo.jfif" alt="Profile photo not found.." style="opacity: 0.9;">
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row" style="margin-top: 10px; color: white;">
+                <div id="main-details" class="col-sm-12" style="text-align: center;">
+                  <h1>Chittari Sai Krishna</h1>
+                  <h2>Higher Qualification : MCA <h6>[Master of Computer Applications]</h6></h2>
+                  <h3>Email : saikrishnachittari@gmail.com</h3>
+                  <h4>Phone : 91 + 9908143086</h4>
+                  <a id="download-resume" href="#">Download Resume</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Qualification Details -->  
+
+      <div id="qualification" style="height: 610px;">
+        <div class="container" style="border-radius: 10px;height: 100%; background-color: rgba(74, 19, 80, 0.2);">
+          <div class="row justify-content-center" style="height: 100%;">
+            <div class="col-md-8">
+              <div class="table-responsive-md" style="width: 100%;">
+                <table class="table caption-top table-hover text-md-center">
+                  <caption style="margin-top: 50px; text-align: center; font-size: 30px; color: aqua; text-shadow: 1px 1px 4px white;">Education Details</caption>
+                  <thead>
+                    <th>QUALIFICATION</th>
+                    <th>BOARD / UNIVERSITY</th>
+                    <th>INSTITUTION</th>
+                    <th>YEAR</th>
+                    <th>AGGREGATE</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="td-center">M.C.A</td>
+                      <td>Kakatiya University</td>
+                      <td>Kakatiya University</td>
+                      <td>2022-2024</td>
+                      <td>Chasing</td>
+                    </tr>
+                    <tr>
+                      <td class="td-center">B.Com</td>
+                      <td>Ambedkar University</td>
+                      <td>Ambedkar University</td>
+                      <td>2016-2019</td>
+                      <td>45%</td>
+                    </tr>
+                    <tr>
+                      <td class="td-center">M.P.C</td>
+                      <td>Board of Intermediate Education</td>
+                      <td>Sri Vidhwan Junior College</td>
+                      <td>2006-2008</td>
+                      <td>94%</td>
+                    </tr>
+                    <tr>
+                      <td class="td-center">S.S.C</td>
+                      <td>Board of Secondary Education</td>
+                      <td>Vani vidhya vihar</td>
+                      <td>2006</td>
+                      <td>90%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Languages-Known">
+        <div class="container" style="background-color: rgba(20, 125, 129, 0.2);">
+          <div class="row" style="text-align: center;">
+            <div class="col-md-12">
+              <h1 style="border-radius: 10px; display: inline-block; background-color: rgba(255, 255, 255, 0.2); color:greenyellow; text-shadow:1px 1px 5px rgb(236, 238, 240);">Languages Known</h1>
+            </div>
+            <div class="col-md-4">
+              <img class="rounded-circle" src="images/html.png" alt="HTML" title="Hyper Text Markup Language">
+              <div class="data">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img class="rounded-circle" src="images/css.jfif" alt="CSS" title="Cascading Style Sheet">
+            </div>
+            <div class="col-md-4">
+              <img class="rounded-circle" src="images/javascript.png" alt="Javascript" title="Java Script">
+            </div>
+          </div>
+          <div class="row justify-content-center" style="text-align: center;">
+            <div class="col-md-4">
+              <img class="rounded-circle" src="images/java.png" alt="Java" title="Java">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Details -->
+    <footer>
+      <div class="containerfluid fixed-bottom">
+        <div class="container" style="background-color: black">
+          <div class="row justify-content-center">
+            <div id="prev-next-box" class="col-sm-12" style="text-align: center; padding: 10px;">
+              <a href="#" id="prev" onclick="previous();">Prev</a>
+              <a href="#" id="next" onclick="next();" style="margin-left: 100px;">Next</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

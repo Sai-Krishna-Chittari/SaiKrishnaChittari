@@ -1,0 +1,135 @@
+
+/* Universal Styling.. */
+*{
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.2s all ease;
+}
+
+body{
+    background-image: url("/images/background-image.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header Styling..*/
+
+#brand-name{
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px greenyellow;
+    background-color: rgba(126, 22, 158, 0.658);
+  }
+
+#links a{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.856);
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s all ease;
+  }
+
+  #links a:focus{
+    background-color: rgba(255, 68, 0, 0.842);
+    color: white;
+  }
+
+  #links a:hover{
+    background-color: rgba(255, 68, 0, 0.842);
+    color: white;
+  }
+
+  #links a:active{
+    background-color: rgba(255, 68, 0, 0.5);
+    color: white;
+  }
+
+/* Styling Section */
+
+#main-details *{
+    margin-top: 15px;
+}
+
+
+#download-resume{
+    text-decoration: none; 
+    background-color: white; 
+    color: rgb(130, 194, 33); 
+    border-radius: 5px; padding: 5px; 
+    box-shadow: 0px 0px 10px rgba(201, 28, 57, 0.925);
+    font-size: 18px;
+  }
+
+  #download-resume:hover{
+    font-size: 19px;
+  }
+
+  #profile-photo{
+    padding: 5px;
+    border: 5px groove white;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+  table{
+    background-color: rgba(255, 255, 255, 0.7); 
+    margin-top: 5%;
+    height: 300px;
+    color: black; 
+    font-size: 20px; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 4px greenyellow;
+  }
+
+  table .td-center{
+    text-align: center;
+  }
+
+  #Languages-Known .col-md-4{
+    padding: 50px;
+  }
+
+  #Languages-Known .row{
+    padding-bottom: 15px;
+  }
+
+  #Languages-Known img{
+    height: 150px;
+    width: 150px;
+    box-shadow: 1px 1px 10px white;
+    opacity: 0.9;
+  }
+
+  #Languages-Known img:hover{
+    opacity: 1;
+  }
+
+/* Styling Footer */
+
+#prev-next-box a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px orange;
+  }
+
+  #prev-next-box a:focus{
+    background-color:  rgb(21, 139, 31);
+    color: white;
+  }
+
+  #prev-next-box a:hover{
+    background-color: rgb(21, 139, 31);
+    color: white;
+  }
+
+  #prev-next-box a:active{
+    background-color: rgb(17, 105, 24);;
+    color: white;
+  }
